@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="396.968" height="190.679" viewBox="0 0 396.968 190.679">
+  <g id="Grupo_72870" data-name="Grupo 72870" transform="translate(-1791.848 -3235.591)">
+    <g id="Layer_1" data-name="Layer 1">
+      <text id="Menos_inductancia" data-name="Menos inductancia" transform="translate(1791.848 3257.591)" fill="#1b2d5b" font-size="20.723" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Menos inductancia</tspan></text>
+      <text id="Más_inductancia" data-name="Más inductancia" transform="translate(2035.816 3257.591)" fill="#1b2d5b" font-size="20.723" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Más inductancia</tspan></text>
+    </g>
+    <g id="Layer_5" data-name="Layer 5">
+      <path id="Trazado_144286" data-name="Trazado 144286" d="M1868.5,3281.8v26.1s14.634,7.1,15.845,13.98c1.762,10.02-12.349,16.777-19.107,16.777-9.811,0-14.693-.158-14.446-5.592.233-5.126,26.563-9.751,33.553,4.212s-12.027,20.929-20.039,22.118c-7.39,1.1-18.667-3.495-14.227-6.757s32.868-5.127,33.334,7.922-12.583,18.641-22.835,18.175-13.98-8.855,0-9.321,25.529,10.02,25.251,17.243c-.269,6.952-9.365,11.184-18.24,11.184v28.427" fill="none" stroke="#2e1175" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_144287" data-name="Trazado 144287" d="M2130.755,3280.057v29.359s32.156-.7,32.156,11.534-24.816,10.486-41.593,11.185-60.168-8.153-5.592-8.738c54.291-.583,49.443,7.342,48.932,12.582-.466,4.777-22.369,10.6-48.932,11.3s-47.184-9.2,3.495-8.854,45.454,7.18,45.913,11.184c.588,5.127-10.5,15.146-48.01,14.447-10.687-.2-57.67-7.107-3.5-8.5s53.476,11.185,50.33,15.728-33.2,7.34-33.2,7.34v28.66" fill="none" stroke="#2e1175" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

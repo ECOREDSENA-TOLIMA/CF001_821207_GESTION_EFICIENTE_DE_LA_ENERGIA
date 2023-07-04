@@ -1,19 +1,123 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.cajon.color-acento-contenido,.fcab25
+  background-color: rgba(173,136,252,.25)
 
+.bloque-texto-a.color-primario
+  background-color: $color-primario !important
+  &::before
+    background-color: #e8e8e8
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+._4rem
+  max-width: 4rem
 
-  100%
-    transform: translateY(0px)
+.cab
+  color: $color-acento-botones !important
+
+.fcab
+  background-color: $color-acento-botones !important
+
+.cac
+  color: $color-acento-contenido !important
+
+.fcac
+  background-color: $color-acento-contenido !important
+
+.fcab25
+  background-color: #CDFCFC !important  
+
+.cp
+  color: $color-primario !important
+
+.fcp
+  background-color: $color-primario !important
+
+.cs
+  color: $color-secundario !important
+
+.fcs
+  background-color: $color-secundario !important
+
+$azulClaro: #0F58B9
+$azulOscuro: #2E0877
+$azulGrisClaro: #E8F0F8
+$l1: $azulClaro,$azulOscuro
+
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.g1
+  @include gradient(0deg, $l1)
+  
+.fagc
+  background-color: $azulGrisClaro
+
+.p-mx_5
+  padding: 0 6rem
+  margin: 0 -6rem
+
+.br26
+  border-radius: 26px !important
+
+.round
+  border-radius: 22px
+
+.exponent
+  font-size: 0.6rem
+  position: relative
+  top: -8px
+  left: 1px
+
+.fblanco
+  background-color: #d8f0f0 !important
+
+.contenedor
+  margin: 0 -6rem
+  padding: 3rem 6rem
+
+.bordeR
+  border-right: #707070 solid 1px
+
+.iconoPdf
+  background: url('../assets/curso/icono-pdf.svg')
+  background-position: center center
+  overflow: visible
+  width: 43px
+  height: 50px
+  background-repeat: no-repeat
+  border: none
+
+.bloque-texto-d.color-secundario
+  &::before
+    background-color: rgba(15,88,185,.1) !important
+
+tbody
+  h4.text-center
+    width: 200% !important
+    padding: 15px 0
+    margin-bottom: 0 !important
+    background-color: $color-acento-contenido
+
+.tabs-a__tab
+  background-color: #e8e8e8
+
+.tarjeta.color-primario--borde
+  background-color: transparent !important
+
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #DCEBF5 !important
+
+.fpm
+  background-color: #E4DAF7 !important
+
+.lista-ol--cuadro__vineta
+  span
+    color: #12263F !important
+
+.t1-div1
+  background-color:#BEFFFF
+  border: 3px solid #0F58B9
+  color: #0F58B9 !important
+  p
+    color: #0F58B9 !important

@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p La electricidad es un conjunto de fenómenos físicos que se producen cuando existe un movimiento de los electrones de los átomos que forman cualquier tipo de materia, que se determina mediante un sistema, teniendo en cuenta sus características propias y los elementos que le componen. 
+    p En el siguiente mapa conceptual, podrá observar en detalle cuales son los conceptos relacionados con el tema de la electricidad:   
 
     .row.justify-content-center
       .col-lg-10.mb-5
