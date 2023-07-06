@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="426" viewBox="0 0 610 426">
+  <g id="Grupo_72891" data-name="Grupo 72891" transform="translate(-810 -4922)">
+    <g id="Rectángulo_32441" data-name="Rectángulo 32441" transform="translate(810 4922)" fill="#ad84ff" stroke="#707070" stroke-width="1" opacity="0.1">
+      <rect width="610" height="426" stroke="none"/>
+      <rect x="0.5" y="0.5" width="609" height="425" fill="none"/>
+    </g>
+    <g id="Grupo_72889" data-name="Grupo 72889" transform="translate(687.956 2220.461)">
+      <g id="Layer_1" data-name="Layer 1">
+        <text id="Capacitor_sencillo" data-name="Capacitor sencillo" transform="translate(340.044 3099.456)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Capacitor sencillo</tspan></text>
+        <text id="Placas" transform="translate(150.044 2903.64)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Placas</tspan></text>
+        <text id="Aire_entre_placas" data-name="Aire entre
+placas" transform="translate(550.044 2730.675)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Aire entre</tspan><tspan x="0" y="25">placas</tspan></text>
+        <path id="Trazado_144340" data-name="Trazado 144340" d="M302.575,2806.466H229.05v180.349h73.525" fill="none" stroke="#25ffff" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_357" data-name="Línea 357" y1="91.762" x2="29.214" transform="translate(541.293 2772.024)" fill="none" stroke="#25ffff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Layer_5" data-name="Layer 5">
+        <path id="Trazado_144341" data-name="Trazado 144341" d="M478.381,2899.184H307.468l53.825-127.16H532.206Z" fill="#fff" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_144342" data-name="Trazado 144342" d="M473.487,2890.1H302.575l53.825-127.16H527.313Z" fill="#fff" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_144343" data-name="Trazado 144343" d="M492.361,3035.432H321.449l53.825-127.16H546.186Z" fill="#fff" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_144344" data-name="Trazado 144344" d="M487.468,3026.344H316.556l53.825-127.16H541.293Z" fill="#fff" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_358" data-name="Línea 358" y2="104.072" transform="translate(424.905 2713.306)" fill="none" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Línea_359" data-name="Línea 359" y2="104.072" transform="translate(424.905 2962.764)" fill="none" stroke="#1b2d5b" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="6 6"/>
+      </g>
+    </g>
+  </g>
+</svg>

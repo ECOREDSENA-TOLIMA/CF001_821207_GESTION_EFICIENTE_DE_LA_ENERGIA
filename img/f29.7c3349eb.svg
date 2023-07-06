@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="386" viewBox="0 0 610 386">
+  <g id="Grupo_72917" data-name="Grupo 72917" transform="translate(-810 -7559)">
+    <g id="Rectángulo_32467" data-name="Rectángulo 32467" transform="translate(810 7559)" fill="#ad84ff" stroke="#707070" stroke-width="1" opacity="0.1">
+      <rect width="610" height="386" stroke="none"/>
+      <rect x="0.5" y="0.5" width="609" height="385" fill="none"/>
+    </g>
+    <g id="Grupo_72912" data-name="Grupo 72912" transform="translate(349.794 3547.008)">
+      <g id="Layer_1" data-name="Layer 1">
+        <text id="C1" transform="translate(702.721 4105.958)" fill="#1b2d5b" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C1</tspan></text>
+        <text id="C2" transform="translate(702.721 4172.661)" fill="#1b2d5b" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C2</tspan></text>
+        <text id="C3" transform="translate(702.721 4235.574)" fill="#1b2d5b" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C3</tspan></text>
+        <text id="CT" transform="translate(887.264 4198.365)" fill="#25ffff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CT</tspan></text>
+        <text id="C4" transform="translate(702.721 4307.52)" fill="#1b2d5b" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C4</tspan></text>
+      </g>
+      <g id="Layer_5" data-name="Layer 5">
+        <circle id="Elipse_4778" data-name="Elipse 4778" cx="8.156" cy="8.156" r="8.156" transform="translate(654.593 4031.1)" fill="#1b2d5b"/>
+        <circle id="Elipse_4779" data-name="Elipse 4779" cx="8.156" cy="8.156" r="8.156" transform="translate(654.593 4352.573)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32450" data-name="Rectángulo 32450" width="4" height="51.408" transform="translate(660.749 4039.255)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32451" data-name="Rectángulo 32451" width="4" height="51.408" transform="translate(660.749 4105.958)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32452" data-name="Rectángulo 32452" width="45.088" height="4" transform="translate(640.205 4088.663)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32453" data-name="Rectángulo 32453" width="45.088" height="4" transform="translate(640.205 4103.958)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32454" data-name="Rectángulo 32454" width="45.088" height="4" transform="translate(640.205 4155.366)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32455" data-name="Rectángulo 32455" width="45.088" height="4" transform="translate(640.205 4170.661)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32456" data-name="Rectángulo 32456" width="4" height="51.408" transform="translate(660.749 4172.661)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32457" data-name="Rectángulo 32457" width="45.088" height="4" transform="translate(640.205 4222.069)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32458" data-name="Rectángulo 32458" width="45.088" height="4" transform="translate(640.205 4237.365)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32459" data-name="Rectángulo 32459" width="4" height="51.408" transform="translate(660.749 4240.816)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32460" data-name="Rectángulo 32460" width="4" height="51.407" transform="translate(660.749 4309.321)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32461" data-name="Rectángulo 32461" width="45.088" height="4" transform="translate(640.205 4290.225)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32462" data-name="Rectángulo 32462" width="45.088" height="4" transform="translate(640.205 4305.52)" fill="#1b2d5b"/>
+        <circle id="Elipse_4780" data-name="Elipse 4780" cx="8.156" cy="8.156" r="8.156" transform="translate(829.895 4031.1)" fill="#1b2d5b"/>
+        <circle id="Elipse_4781" data-name="Elipse 4781" cx="8.156" cy="8.156" r="8.156" transform="translate(829.895 4352.573)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32463" data-name="Rectángulo 32463" width="4" height="143.814" transform="translate(836.051 4039.255)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32464" data-name="Rectángulo 32464" width="45.087" height="4" transform="translate(815.507 4181.069)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32465" data-name="Rectángulo 32465" width="45.087" height="4" transform="translate(815.507 4196.365)" fill="#1b2d5b"/>
+        <rect id="Rectángulo_32466" data-name="Rectángulo 32466" width="4" height="162.363" transform="translate(836.051 4198.365)" fill="#1b2d5b"/>
+      </g>
+    </g>
+  </g>
+</svg>
