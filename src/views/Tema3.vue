@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Definición de magnitudes eléctricas
-    .col-lg-8.mx-auto
+    .col-lg-10.mx-auto
       .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.m-0.align-items-center
           .col-lg-8
@@ -15,7 +15,7 @@
           .col-lg-3.mb-4.mb-lg-0.mx-auto
             img(src='@/assets/curso/t3/f1.svg' alt='Bombillo')
     Separador
-    #t_3_1.titulo-segundo
+    #t_3_1.titulo-segundo.color-acento-botones
       h2 3.1 Diferencia de potencial
     p.mb-5 El potencial es el estado eléctrico en que se encuentra un cuerpo. Todos los cuerpos en estado natural poseen átomos eléctricamente neutros. Cuando se altera el estado de equilibrio se genera un potencial negativo o positivo, esta diferencia es lo que se conoce como diferencia de potencial, que también es conocido como tensión o voltaje.
     .contenedor.fagc.p_m-5
@@ -78,7 +78,7 @@
       .col-lg-10.mx-auto.mb-5
         img(src='@/assets/curso/t3/f12.png' alt='Tips')
     Separador
-    #t_3_2.titulo-segundo
+    #t_3_2.titulo-segundo.color-acento-botones
       h2 3.2 Corriente eléctrica
     p.mb-5 Si se conecta un alambre conductor entre dos terminales con diferente potencial, se tiene un flujo de electrones desde el punto con potencial negativo hacia el punto con potencial positivo. Este movimiento se conoce como corriente eléctrica.
     .contenedor.fagc.p_m-5
@@ -120,22 +120,25 @@
             img(src='@/assets/curso/t3/f15.svg' alt='Imagen relacionada')
       p.mb-5 La siguiente tabla contiene los múltiplos y submúltiplos del amperio habituales en electricidad.
       .col-lg-6.mx-auto
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 7. </b> <i>Múltiplos y submúltiplos del amperio.</i>
         img(src='@/assets/curso/t3/f16.svg' alt='Imagen relacionada')
     Separador
-    #t_3_3.titulo-segundo
+    #t_3_3.titulo-segundo.color-acento-botones
       h2 3.3 Resistencia eléctrica	
     .tarjeta.fagc.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src="@/assets/curso/infografias.svg")
         .col-md.col-lg-6
-          h3 Resistencia eléctrica
+          .titulo-segundo.color-acento-botones
+            h3 Resistencia eléctrica
           p.mb-4 Todo material se resiste a que una corriente lo recorra. Esta resistencia variará de acuerdo con el tipo de material, temperatura, longitud y grosor del conductor por el que transiten los electrones.
-          a.boton.color-secundario(:href="obtenerLink('downloads/grafico2.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-secundario(href="obtenerLink('downloads/grafico2.pdf')" target="_blank" type="application/pdf")
             span Descargar
-            i.fas.fa-file-download
+            i.fas.fa-link
     Separador
-    #t_3_4.titulo-segundo
+    #t_3_4.titulo-segundo.color-acento-botones
       h2 3.4 Efecto Joule
     .col-lg-10.mx-auto
       SlyderE(indicadores="derecha")

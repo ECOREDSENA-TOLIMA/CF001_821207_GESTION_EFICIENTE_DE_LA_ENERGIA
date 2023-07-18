@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
       h1 Elementos de circuito
-    .col-lg-9.mx-auto
+    .col-lg-10.mx-auto
       .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.m-0.align-items-center
           .col-lg-8
@@ -15,13 +15,18 @@
           .col-lg-4.mb-4.mb-lg-0.mx-auto
             img(src='@/assets/curso/t5/f1.svg' alt='Imagen relacionada')
     Separador
-    #t_5_1.titulo-segundo
+    #t_5_1.titulo-segundo.color-acento-botones
       h2 5.1 Resistencia
-    p La resistencia es la propiedad que tiene un componente, o un trozo de conductor (canal que facilita el paso de electrones), de oponerse al paso de la corriente eléctrica. Mientras que el resistor es un componente físico mediante el cual se genera resistencia
+    p La resistencia es la propiedad que tiene un componente, o un trozo de conductor (canal que facilita el paso de electrones), de oponerse al paso de la corriente eléctrica. Mientras que el resistor es un componente físico mediante el cual se genera resistencia.
     h3 El Resistor
     .col-lg-8.mx-auto.mb-5
-      img(src='@/assets/curso/t5/f2.png' alt='Resistores').mb-4
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 <b>Figura 9. </b> <i>Resistor.</i> 
+      figure
+        img(src='@/assets/curso/t5/f2.png' alt='Resistores').mb-4
       p.mb-5 El resistor se utiliza en algunos aparatos eléctricos como las planchas, estufas, calentadores, entre otros, en los que se utiliza el conductor como una fuente de calor. 
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 <b>Figura 10. </b> <i>Resistores.</i> 
       figure.mb-5
         img(src='@/assets/curso/t5/f3.png' alt='Resistores').mb-4
         figcaption Nota. Resistencias para generar calor. Nota. etgerd.com
@@ -32,7 +37,7 @@
       li 
         .lista-ol--cuadro__vineta.fcab
           span a
-        h3 Codificación de valores en los resistores
+        | #[b Codificación de valores en los resistores]
     p En los resistores existen tres formas diferentes para indicar los valores en Ohmios. La primera y la más simple de todas, se da en resistores de potencias medias y altas, donde se indica el valor en ohmios (Ω) o kilo Ohmios (kΩ), y la mayoría de las veces la potencia en Wattios, directamente estampado sobre el cuerpo del elemento. 
     p Una segunda es la codificación con franjas de colores llamado “Código de Colores en resistencias”. Una tercera y última codificación, la cual es aplicada en resistores de montaje superficial (SMD: Surface Mounted Device o SMT:Surface Mount Technology). 
     p.mb-5 A continuación, se explican con más detalle los dos últimos tipos de codificación. 
@@ -46,6 +51,8 @@
           p.mb-4 Estos valores se indican con un conjunto de rayas de colores sobre el cuerpo del elemento. Son tres, cuatro o cinco rayas; dejando la raya de tolerancia (normalmente plateada o dorada) a la derecha, se leen de izquierda a derecha.
           ImagenInfografica.color-acento-botones.mb-5
             template(v-slot:imagen)
+              .titulo-sexto.color-acento-contenido
+                p.titulo.pb-0.mb-0 <b>Figura 11. </b> <i>Código de franjas de colores.</i> 
               figure
                 img(src='@/assets/curso/t5/f4.png', alt='Resistor')
                 figcaption <b>Fuente:</b> geekelectronica
@@ -66,21 +73,21 @@
                   .p-4
                     p.mb-0 Para caracterizar un resistor hacen falta tres valores: resistencia eléctrica, disipación máxima y precisión o tolerancia. Estos valores se indican normalmente en el encapsulado dependiendo del tipo de éste; para el tipo de encapsulado axial, el que se observa en las fotografías, dichos valores van rotulados con un código de franjas de colores.
           
-          .col-lg-7.mx-auto.mb-5
-            .titulo-sexto.color-acento-contenido
-              span Se muestra el valor dado a cada linea de la resistencia dependiendo de su color
-            figure
-              img(src='@/assets/curso/t5/f5.png', alt='Tabla de resistencias según color')
-              figcaption 
+          //.col-lg-9.mx-auto.mb-5.align-items-center.justify-content-center
+          .titulo-sexto.color-acento-contenido.mt-3
+            p.titulo.pb-0.mb-0 <b>Tabla 8. </b> <i>Se muestra el valor dado a cada línea de la resistencia dependiendo de su color.</i> 
+          figure
+            img(src='@/assets/curso/t5/f5.png', alt='Tabla de resistencias según color')
+            figcaption 
 
-          .row
-            .col-lg-12
-              .tarjeta-avatar-b.mb-5
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/t5/e1.svg' alt='círculo azul')
-                .tarjeta.tarjeta--blanca
-                  .p-4
-                    p.mb-0 El valor de la resistencia eléctrica se obtiene leyendo las cifras como un número de una, dos o tres cifras; se multiplica por el multiplicador y se obtiene el resultado en Ohmios (Ω). El coeficiente de temperatura únicamente se aplica en resistencias de alta precisión o tolerancia menor del 1%.
+        .row
+          .col-lg-12
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/t5/e1.svg' alt='círculo azul')
+              .tarjeta.tarjeta--blanca
+                .p-4
+                  p.mb-0 El valor de la resistencia eléctrica se obtiene leyendo las cifras como un número de una, dos o tres cifras; se multiplica por el multiplicador y se obtiene el resultado en Ohmios (Ω). El coeficiente de temperatura únicamente se aplica en resistencias de alta precisión o tolerancia menor del 1%.
 
 
         img(src='@/assets/curso/t5/f6.svg' alt='imagen relacionada' style="width:950px;").m-auto.mb-5
@@ -113,11 +120,11 @@
       li 
         .lista-ol--cuadro__vineta.fcab
           span b
-        h3 Codificación a tres cifras en resistencias <em>SMD</em> o <em>SMT</em>
+        | #[b Codificación a tres cifras en resistencias #[i SMD] o #[i SMT]]
     .col-lg-10.mx-auto
       .row.align-items-center
         .col-lg-6
-          p En la figura se observa la codificación de tres cifras de un resistor. Los dos primeros dígitos indican el valor numérico de la resistencia. El tercer dígito es el multiplicador por 10. Esto significa que si el número es 5 el multiplicador es 100000 (o 105), por lo tanto se agregan cinco ceros. Si el tercer número es 2, el multiplicador es 100 y así, según sea el caso. 
+          p En la Figura 12. Se observa la codificación de tres cifras de un resistor. Los dos primeros dígitos indican el valor numérico de la resistencia. El tercer dígito es el multiplicador por 10. Esto significa que si el número es 5 el multiplicador es 100000 (o 105), por lo tanto se agregan cinco ceros. Si el tercer número es 2, el multiplicador es 100 y así, según sea el caso. 
           .fcab25.p-4.mb-4
             p Así pues, 
             p Código 350 = 35 * 10<span class="exponent">0</span> = 35 Ω
@@ -125,15 +132,16 @@
             p.mb-0 Código 405 = 40 * 10<span class="exponent">5</span> = 4 MΩ
         .col-lg-5.mx-auto
           .titulo-sexto.color-acento-contenido
-            span Codificación de tres dígitos en resistores SMD o SMT
-          img(src='@/assets/curso/t5/f7.svg' alt='imagen relacionada').mb-5
-          figcaption Nota. Mora, R. (2018, noviembre 4).  
+            span #[b Figura 12.] #[i Codificación de tres dígitos en resistores SMD o SMT.]
+          figure
+            img(src='@/assets/curso/t5/f7.svg' alt='imagen relacionada').mb-5
+            figcaption Nota. Mora, R. (2018, noviembre 4).  
 
       p.my-5 En la siguiente figura se observan más ejemplos de la codificación de tres cifras. 
       .row.align-items-center
         .col-lg-7
           .titulo-sexto.color-acento-contenido
-            span Codificación de tres dígitos de resistores SMD 
+            span #[b Figura 13.] #[i Codificación de tres dígitos de resistores SMD.]
           figure
             img(src='@/assets/curso/t5/f8.png' alt='imagen relacionada').mb-5
             figcaption Nota. Mora, R. (2018, noviembre 4).
@@ -166,7 +174,7 @@
     SlyderB.mb-5(:datos="datosSlyder")
     
     Separador
-    #t_5_2.titulo-segundo
+    #t_5_2.titulo-segundo.color-acento-botones
       h2 5.2 Inductancia
     p Es el efecto que se genera en un conductor ante el paso de la corriente eléctrica, llamado reactancia inductiva. Igualmente, es la relación entre la cantidad de flujo magnético y el flujo de electrones que fluye a través de un inductor o bobina. 
     p La inductancia es representada con la letra L y la unidad de medida es el Henry o Henrio, el cual se representa con la letra H, se suelen emplear los submúltiplos miliHenrio (mH) y microHenrio (μH). y equivale a la inductancia que produce una tensión autoinducida de 1 voltio al variar constantemente su corriente a razón de 1 amperio en cada 1 segundo, como se indica en la siguiente expresión:
@@ -273,7 +281,7 @@
             span Inductores o bobinas en paralelo
           img(src='@/assets/curso/t5/f23.svg' alt='Imagen relacionada')
     Separador
-    #t_5_3.titulo-segundo
+    #t_5_3.titulo-segundo.color-acento-botones
       h2 5.3 Capacitancia
     p.mb-5 Reactancia capacitiva en la corriente eléctrica. Capacidad que tiene un componente, cuerpo, circuito, etc., para acumular y mantener energía en forma de carga eléctrica. La capacitancia es una magnitud que expresa la cantidad de energía eléctrica almacenada para un voltaje proporcionado. El componente más habitual que acumula energía es el capacitor o condensador.
     .col-lg-6.mx-auto.mb-5
@@ -444,12 +452,12 @@
         p Capacitores con la particularidad de poder variar su capacitancia. Hay capacitores variables cuya aplicación conlleva a variaciones de frecuencias en un circuito de manera frecuente, por ejemplo, sintonizadores; y Capacitores de ajuste, comúnmente llamados trimmers, que normalmente son ajustados una sola vez en la placa para aplicaciones de reparación y puesta a punto. El desplazamiento mecánico entre las placas enfrentadas es lo que permite esta variación de la capacitancia.
         p La forma constructiva de las placas enfrentadas es la que determina la relación con que varían su capacidad respecto al ángulo de rotación viene determinada, obedeciendo diferentes leyes de variación como la lineal, logarítmica y cuadrática corregida.
     Separador
-    #t_5_4.titulo-segundo
+    #t_5_4.titulo-segundo.color-acento-botones
       h2 5.4 Fuentes independientes
     p.mb-5 Son las que mantienen un valor fijo, estas pueden ser ya sea de tensión o de corriente, independientemente del estado del circuito.
     SlyderB.mb-5(:datos="datosSlyder2")
     Separador
-    #t_5_5.titulo-segundo
+    #t_5_5.titulo-segundo.color-acento-botones
       h2 5.5 Fuentes dependientes
     SlyderB.mb-5(:datos="datosSlyder3")
     p Las cantidades μ y β son constantes adimensionales, llamadas habitualmente ganancia en voltaje o corriente respectivamente. Las constantes r y g tienen unidades de Ohm y Mho respectivamente.

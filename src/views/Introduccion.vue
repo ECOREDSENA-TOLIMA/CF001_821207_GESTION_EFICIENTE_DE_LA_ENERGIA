@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -14,7 +14,7 @@
       .col-12.mt-2(data-aos="fade-up")
         figure.mt-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/NaoMfuuuJks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/rnpfxTc5mss" title="Conceptos básicos de electricidad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
   
 </template>
 

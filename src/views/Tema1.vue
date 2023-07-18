@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Sistema de unidades
@@ -19,7 +19,7 @@
       SlyderA(tipo="b")
         .row.mt-5
           .col-md-6.mb-4.mb-md-0
-            p Cuando se necesite medir algo que puede variar, es decir que puede adoptar diferentes valores numéricos, se pueden utilizar las unidades de medida . Así, mediante el kilo, el metro, el grado de temperatura u otras unidades de medida identificamos cantidades, comparándolas con estas unidades.  
+            p Cuando se necesite medir algo que puede variar, es decir que puede adoptar diferentes valores numéricos, se pueden utilizar las unidades de medida. Así, mediante el kilo, el metro, el grado de temperatura u otras unidades de medida identificamos cantidades, comparándolas con estas unidades.  
             p En electricidad también existen magnitudes que varían, que deben ser medidas y monitoreadas, por ejemplo, para tomar decisiones sobre los elementos a emplear en una |instalación.
           
           .col-md-6
@@ -77,7 +77,9 @@
 
     .row.mt-5
       .col-8.mx-auto
-        .tabla-a.color-acento-botones.mb-5 
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Magnitudes básicas o fundamentales.</i>
+        .tabla-a.color-acento-contenido.mb-5 
           table
             thead
               tr.text-center
@@ -118,18 +120,20 @@
 
     .row.mt-5
       .col-8.mx-auto
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Magnitudes derivadas comunes.</i>
         figure
           img(src='@/assets/curso/t1/f10.png', alt='')
 
     Separador
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.color-acento-botones
       h2 1.1 Prefijos del Sistema Internacional 
     
     p Cuando se mide una cantidad física, la unidad de medida que se utiliza puede resultar muy grande o muy pequeña con respecto a la cantidad. En estos casos, para poder expresar la medida, es necesario utilizar los múltiplos y submúltiplos de la unidad de medida. Para ello se utilizan los prefijos del Sistema Internacional de Unidades (SI). 
     p Los prefijos permiten que las cifras puedan expresarse de una manera más sencilla, cuando estas se encuentran en valores muy grandes o muy pequeños. Por ejemplo, no se justifica expresar el peso de una sustancia como 0.000000000001 g debido a la dificultad para interpretar mentalmente esa medida. Es más comprensible escribir que pesa 1pg (1 picogramo) o 1000 ng (1000 nanogramos). Así pues, al nombre de la unidad fundamental se le antepone un prefijo, cuyo símbolo y significado se muestran en la siguiente tabla. 
 
     .titulo-sexto.color-acento-contenido
-      span Tabla prefijos del Sistema Internacional (SI). 
+      p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Prefijos del Sistema Internacional (SI).</i>
     .tabla-a.color-acento-contenido.mb-5 
       table
         caption Nota. Centro Español de Metrología, 2013.
@@ -225,7 +229,16 @@
     h3 Conversión de unidades con prefijos del Sistema Internacional de Unidades
 
     p Para convertir una unidad en otra, sea mayor o menor, se utilizan los múltiplos y submúltiplos de la unidad de medida. Normalmente se utilizan los múltiplos y submúltiplos de 10 en notación exponencial: 1000 es 103, 1/1000 es 10‐3, etc. Se observa, por ejemplo, que en la medida de masa, un kilogramo (1 kg) equivale a 1000 gramos y gramo (1 g) a 1000 miligramos. Esto se observa también en medidas de longitud, volumen, entre otros.
-    p.mb-5 A continuación, se explican maneras sencillas de cómo realizar las conversiones de una unidad dada en otra más grande o más pequeña. 
+    p.mb-3 A continuación, se explican maneras sencillas de cómo realizar las conversiones de una unidad dada en otra más grande o más pequeña. 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12(data-aos="fade-down")
+        ul.lista-ul.mb-2
+          li.mb-0
+            i.fas.fa-angle-right
+            | Para pasar de una cantidad menor a una de mayor valor (inmediatamente superior): dividir por mil. Esto significa correr el punto decimal tres lugares a la izquierda. Hacerlo cada vez que se requiera.
+          li.mb-0
+            i.fas.fa-angle-right
+            | Para pasar de una unidad mayor a otra de menor valor (inmediatamente inferior): multiplicar por mil. Esto es correr el punto decimal tres lugares a la derecha. Hacerlo cada vez que se requiera. 
     
     .tarjeta.g1.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -242,22 +255,23 @@
                 i.fas.fa-external-link-alt
 
     Separador
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.color-acento-botones
       h2 1.2 Notación científica
 
     p Es una forma estandarizada de representar cualquier número como el producto de un número real y una potencia de 10. Para más detalle, se puede consultar en la siguiente infografía informativa. 
 
-    figure
-      img(src='@/assets/curso/t1/f11.svg', alt='')
+    SlyderF.mb-5(columnas="col-12")
+      .tarjeta.color-acento-botones.p-4
+        img(src='@/assets/curso/t1/f12.svg' alt='')
+      .tarjeta.color-acento-botones.p-4
+        img(src='@/assets/curso/t1/f13.svg' alt='')
+      .tarjeta.color-acento-botones.p-4
+        img(src='@/assets/curso/t1/f14.svg' alt='')
+      .tarjeta.color-acento-botones.p-4
+        img(src='@/assets/curso/t1/f15.svg' alt='')
 
     Separador
-    #t_1_2.titulo-segundo
-      h2 1.2 Prefijos del Sistema Internacional
-    p Cuando se mide una cantidad física, la unidad de medida que se utiliza puede resultar muy grande o muy pequeña con respecto a la cantidad. En estos casos, para poder expresar la medida, es necesario utilizar los múltiplos y submúltiplos de la unidad de medida. Para ello se utilizan los prefijos del Sistema Internacional de Unidades (SI).
-    p.mb-5 Los prefijos permiten que las cifras puedan expresarse de una manera más sencilla, cuando estas se encuentran en valores muy grandes o muy pequeños. Por ejemplo, no se justifica expresar el peso de una sustancia como 0.000000000001 g debido a la dificultad para interpretar mentalmente esa medida. Es más comprensible escribir que pesa 1 pg (1 picogramo) o 1000 ng (1000 nanogramos). Así pues, al nombre de la unidad fundamental se le antepone un prefijo, cuyo símbolo y significado se muestran en la siguiente tabla.
-    
-    Separador
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.color-acento-botones
       h2 1.3 Simbología eléctrica
     p.mb-5 La simbología eléctrica es el conjunto de formas gráficas que representa cada componente de un circuito o instalación eléctrica. Esta simbología es importante cuando se transfiere información ya sea en la elaboración de un proyecto, ejecución, operación y mantenimiento. En esta sección se pretende una familiarización con los símbolos de los diferentes aparatos eléctricos, que son importantes para comprender la representación esquemática de los sistemas eléctricos y para explicar su funcionamiento. 
     .col-lg-8.mx-auto
@@ -266,7 +280,7 @@
     p.mb-5 La siguiente tabla muestra los símbolos eléctricos más usados en Colombia. La simbología mostrada es extraída fundamentalmente de la resolución <b>Reglamento Técnico de Instalaciones Eléctricas (RETIE)</b> expedida por el Ministerio de Minas y Energía de Colombia. 
     .col-lg-10.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        span Tabla de principales símbolos eléctricos.
+        p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Principales símbolos eléctricos.</i>
       figure
         img(src='@/assets/curso/t1/f2.svg' alt='simbología eléctrica')
         figcaption Nota. Ministerio de Minas y Energía de Colombia (2013).
@@ -274,25 +288,25 @@
       .row
         .col-lg-4
           p Puede conocer el reglamento ANEXO GENERAL DEL RETIE RESOLUCIÓN 9 0708 DE AGOSTO 30 DE 2013 con sus ajustes con mayor detalle, consulte el siguiente enlace:
-          a.anexo(href="https://www.minenergia.gov.co/documents/10180/1179442/Anexo+General+del+RETIE+vigente+actualizado+a+2015-1.pdf/57874c58-e61e-4104-8b8c-b64dbabedb13" target="_blank")
+          a.anexo(href="https://sic.gov.co/sites/default/files/files/reglamentos%20tecnicos/ANEXO%20GENERAL%20RETIE%20Res%2090708%20de%202013%20actualizado%20a%20Res%202017-03-29.pdf " target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p Anexo General del RETIE, Resolución 9 0708 de agosto 30 de 2013.
+              p #[b Enlace web.] ANEXO GENERAL DEL RETIE RESOLUCIÓN 9 0708 DE AGOSTO 30 DE 2013
         .col-lg-4
           p Se invita a incrementar los conocimientos sobre la simbología eléctrica, cuáles son los símbolos eléctricos normalizados en el Código Eléctrico Colombiano NTC2050 - CEC, en el siguiente enlace:
-          a.anexo.mb-4(:href="obtenerLink('downloads/ntc20500.pdf')" target="_blank")         
+          a.anexo.mb-4(href="https://medicert.com.co/docs/NTC-2050.pdf" target="_blank")         
             .anexo__icono
-              img(src="@/assets/template/icono-pdf.svg")
+              img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p Símbolos eléctricos normalizados en el Código Eléctrico Colombiano NTC2050 - CEC
+              p #[b Enlace web.] La simbología eléctrica
         .col-lg-4
           p Si desea consultar todos los símbolos con detalle así como la representación de nuevos símbolos, puede visitar los siguientes portales:
           a.anexo(href="https://www.simbologia-electronica.com/simbologia-electrica-electronica/simbolos-electricos-electronicos-pdf.htm" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p Símbolos eléctricos y electrónicos
+              p #[b Enlace web.] Consultar todos los símbolos
           
 </template>
 

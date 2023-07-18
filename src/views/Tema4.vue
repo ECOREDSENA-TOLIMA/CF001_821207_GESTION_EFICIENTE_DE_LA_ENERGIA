@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
       h1 Formas de onda de energía eléctrica
-    .col-lg-9.mx-auto
+    .col-lg-10.mx-auto
       .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.m-0.align-items-center
           .col-lg-8
@@ -15,14 +15,16 @@
           .col-lg-4.mb-4.mb-lg-0.mx-auto
             img(src='@/assets/curso/t4/f1.svg' alt='Torres eléctricas, generadores eólicos y paneles solares')
     Separador
-    #t_4_1.titulo-segundo
+    #t_4_1.titulo-segundo.color-acento-botones
       h2 4.1 Corriente continua
     .col-lg-10.mx-auto.mb-5
       p.mb-5 Si el flujo de electrones se desplaza continuamente en la misma dirección, se indica que la corriente es una corriente continua o directa. El sentido del flujo de la corriente continua va siempre de negativo (-) a positivo (+) como se ve en la figura a continuación. 
       .col-lg-7.mx-auto.mb-4
         .titulo-sexto.color-acento-contenido
-          span      Dirección del flujo de electrones y Nivel D.C.
-        img(src='@/assets/curso/t4/f2.svg' alt='Imagen relacionada')
+          p.titulo.pb-0.mb-0 <b>Figura 6. </b> <i>Dirección del flujo de electrones y Nivel D.C.</i>  
+        figue 
+          img(src='@/assets/curso/t4/f2.svg' alt='Imagen relacionada')
+          figcaption Nota. SENA (2021). 
     p La expresión corriente directa (C.D.) se utiliza para decir corriente continua. A la corriente continua o directa se le determinan las abreviaturas C.D, D.C. y C.C dependiendo del contexto en que se maneje. 
     p Aunque usualmente se conoce la corriente directa como una corriente constante, en realidad es continua toda corriente que mantiene constante su polaridad, así se reduce su flujo acorde como se vaya consumiendo la carga, por ejemplo, al momento en que se descarga una batería eléctrica. De igual forma se dice corriente continua cuando los electrones se mueven constantemente en el mismo sentido, el flujo se llama corriente continua y va (por concordancia) del polo positivo al negativo.
     p.mb-5 Las fuentes de corriente continua que más se usan son: generadores de corriente directa o dinamos, baterías o acumuladores, pilas voltaicas o pilas secas.
@@ -41,14 +43,14 @@
       .col-lg-4
         img(src='@/assets/curso/t4/f4.svg' alt='Imagen relacionada')
     Separador
-    #t_4_2.titulo-segundo
+    #t_4_2.titulo-segundo.color-acento-botones
       h2 4.2 Corriente alterna
     p La variación periódica de la dirección del flujo de electrones es lo que comúnmente se denomina corriente eléctrica alterna. Es decir, la dirección del flujo y magnitud de la corriente alterna sufren inversiones cíclicas.
-    p La forma de onda o de alternancia de la corriente alterna usualmente utilizada es la de onda seno, con esta se logra una eficiente transmisión de la energía, a tal punto que cuando se habla de corriente alterna se hace referencia a corriente alterna senoidal, visible en la siguiente figura.
+    p La forma de onda o de alternancia de la corriente alterna usualmente utilizada es la de onda seno, con esta se logra una eficiente transmisión de la energía, a tal punto que cuando se habla de corriente alterna se hace referencia a corriente alterna senoidal. Figura 7.
     p.mb-5 Sin embargo, hay algunas aplicaciones especiales donde se manejan otros tipos de formas de ondas periódicas, como son las triangulares o la rectangulares.
     .col-lg-6.mx-auto.mb-4
       .titulo-sexto.color-acento-contenido
-        span Señal de Corriente alterna Senoidal.
+        p.titulo.pb-0.mb-0 <b>Figura 7. </b> <i>Señal de Corriente alterna Senoidal.</i> 
       figure
         img(src='@/assets/curso/t4/f5.svg' alt='Imagen relacionada')
         figcaption Nota. Generatuluz. (2021).
@@ -60,7 +62,7 @@
       li 
         .lista-ol--cuadro__vineta.fcab
           span a
-        h3 Corriente alterna senoidal
+        | #[b Corriente alterna senoidal]
     p.mb-5 No todas las formas de onda tienen determinada su expresión matemática, esto, no permite que estas se puedan modelar matemáticamente para su análisis. Por el contrario, la onda seno no tiene esta incertidumbre matemática y presenta las siguientes prelaciones:
     .row.align-items-center.mb-5
       .col-lg-6
@@ -69,21 +71,21 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 La expresión analítica y gráfica de la función seno está perfectamente determinada. Permitiendo que sea analizada mediante la teoría de los números complejos en las prácticas de circuitos alternos.
+            spam.mb-0 La expresión analítica y gráfica de la función seno está perfectamente determinada. Permitiendo que sea analizada mediante la teoría de los números complejos en las prácticas de circuitos alternos.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Mediante el estudio directo de las series de Fourier, se sustenta que con la sumatoria de una serie de ondas senoidales, de desiguales frecuencias, se puede obtener cualquier onda periódica no senoidal, estas ondas senoidales son llamados armónicos.
+            spam.mb-0 Mediante el estudio directo de las series de Fourier, se sustenta que con la sumatoria de una serie de ondas senoidales, de desiguales frecuencias, se puede obtener cualquier onda periódica no senoidal, estas ondas senoidales son llamados armónicos.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Para proporcionar el transporte de la energía eléctrica se logran concebir con facilidad y en magnitudes de valores superiores.
+            spam.mb-0 Para proporcionar el transporte de la energía eléctrica se logran concebir con facilidad y en magnitudes de valores superiores.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Mediante el uso de transformadores se hace posible su transformación en otras señales de distinta magnitud.
+            spam.mb-0 Mediante el uso de transformadores se hace posible su transformación en otras señales de distinta magnitud.
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta.fcab
           span b
-        h3 Modelamiento matemático de una onda Sinoidal
+        | #[b Modelamiento matemático de una onda Sinoidal]
     p.mb-5 Una onda seno, a(t), de Voltaje, v(t), y corriente, i(t), se puede formular matemáticamente según sus características, ver la figura a continuación, como una función del tiempo por medio de la siguiente ecuación:
     .col-lg-6.mx-auto.mb-5
       .fagc.p-4
@@ -107,12 +109,12 @@
               img(src='@/assets/curso/t4/f10.png' alt='Imagen relacionada')
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              span Onda Sinusoidal  
+              p.titulo.pb-0.mb-0 <b>Figura 8. </b> <i>Onda Sinusoidal.</i> 
             figure
               img(src='@/assets/curso/t4/f11.svg' alt='Imagen relacionada')
               figcaption Nota. Wikimedia (31 de diciembre de 2008). 
     Separador
-    #t_4_3.titulo-segundo
+    #t_4_3.titulo-segundo.color-acento-botones
       h2 4.3 Valores medio (A<span class="text-small">med</span>) y eficaz (A) o RMS
     p.mb-5 La corriente alterna se puede medir en diferentes formas, como lo son valores medios o valores eficaces que también son llamados RMS, a continuación se detalla cada uno de ellos. 
     .col-lg-11.mx-auto
@@ -120,8 +122,8 @@
         li 
           .lista-ol--cuadro__vineta.fcab
             span a
-          div 
-            h3 Valor medio o Amed
+          | #[b Valor medio o Amed]
+          div.mt-3
             .row
               .col-lg-7
                 p Algunos lo describen como el componente de corriente continua o directa de la señal sinusoidal. Si el área está por encima del eje de abscisas se toma positiva y si está por debajo se toma como negativa. En una onda sinusoidal, el semiciclo positivo es idéntico, pero invertido, al semiciclo negativo, dado que su valor medio es nulo. Por esta razón, en una señal sinusoidal el valor medio solo se representa en medio ciclo. Mediante cálculo integral se puede explicar que su expresión es la siguiente:
@@ -136,8 +138,8 @@
         li 
           .lista-ol--cuadro__vineta.fcab
             span b
-          div 
-            h3 Valor eficaz (A) o RMS
+          | #[b Valor eficaz (A) o RMS]
+          div.mt-3 
             p Cuando los mismos efectos caloríficos se originan con valores de una corriente o voltaje continuo o directo con respecto a su equivalente alterno, se dice que este es el valor eficaz. En otras palabras, para una corriente alterna dada, su valor eficaz (Ief) será la corriente continua o directa que provoca la misma disipación de potencia (P) o calor en una resistencia (R). Matemáticamente, se especifica que la raíz cuadrada de la media de los cuadrados de los valores instantáneos alcanzados durante un período es el valor eficaz de una cantidad variable con el tiempo:
             .col-lg-3.mx-auto.mb-4
               img(src='@/assets/curso/t4/f13.png')

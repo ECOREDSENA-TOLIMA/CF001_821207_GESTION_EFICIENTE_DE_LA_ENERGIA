@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
       h1 Naturaleza eléctrica de la materia
-    .col-lg-8.mx-auto
+    .col-lg-10.mx-auto
       .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.m-0.align-items-center
           .col-lg-8
@@ -29,10 +29,12 @@
         .col-lg-6
           h4 Ejemplo:
           p La molécula del agua posee 3 elementos, 2 de Hidrógeno y 1 de Oxígeno; su expresión ya popular por todos es: H2O,  dicho de otra forma, el agua está compuesta por 3 átomos, dos de hidrógeno, elemento puro, y uno de oxígeno, elemento puro.
-        .col-lg-4.mx-auto           
+        .col-lg-4.mx-auto    
+          .titulo-sexto.color-acento-contenido
+            p.titulo.pb-0.mb-0 <b>Figura 1. </b> <i>Molécula del Agua.</i>       
           figure
             img(src='@/assets/curso/t2/f2.svg' alt='Molécula del agua')
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-botones
       h2 2.1 Teoría atómica
     p.mb-5 Es una teoría de la naturaleza de la materia. Todas las sustancias materiales están compuestas de partículas diminutas o átomos de un número relativamente pequeño y de diferentes tipos, todos los átomos del mismo tipo son uniformes en tamaño, peso y otras propiedades.
     h3 El átomo
@@ -66,7 +68,7 @@
             p Caracterización del gas de helio:
             p <b>Protones:</b> cargas eléctricas positivas. (El átomo de helio posee dos).
             p <b>Neutrones:</b> no poseen cargas eléctricas, como su nombre lo indica. (El átomo de helio posee dos).
-            p <b>Electrones:</b> cargas eléctricas negativas. (El átomo de helio posee dos)
+            p <b>Electrones:</b> cargas eléctricas negativas. (El átomo de helio posee dos).
           .col-md-5.mx-auto
             figure
               img(src='@/assets/curso/t2/f5.svg', alt='Estructura física del átomo de Helio')
@@ -84,7 +86,7 @@
         p <b>Niveles de energía.</b><br>En electrónica, una órbita es un nivel de energía. Los electrones que estén ubicados en órbitas junto al núcleo, tienen poco nivel de energía; por el contrario, cuando el electrón está en una órbita distante al núcleo del átomo, este electrón posee mucha energía.
         p <b>Obtención de energía de un átomo.</b><br>Con solo hacer pasar los electrones de las órbitas interiores a las órbitas más exteriores bastará para que se pueda obtener energía. Para lograr esto, primero el átomo deberá ser sometido a ciertos tipos de procedimientos como pueden ser: presión o vibración física, fricción o roce, reacción química, luz,  calor o Influencia magnética.
     Separador
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo.color-acento-botones
       h2 2.2 Tipos de enlace molecular
     .col-lg-10.mx-auto
       p.mb-5 Son los diferentes tipos de fuerzas existentes entre los átomos cuando se ha formado un sistema estable. Igualmente, se puede enunciar como el proceso químico encargado de las interacciones significativas entre átomos y moléculas, y que otorga estabilidad a los compuestos químicos diatómicos y poliatómicos. La ilustración de tales fuerzas atractivas es un área compleja que está definida por las leyes de la química cuántica.
@@ -118,7 +120,7 @@
               p Los momentos dipolares en átomos y moléculas se miden en Culombio - metro (C · m) o en debyes, donde un debyes = 3.34 · 10-10 Cxm.
               p Las moléculas compuestas de dos o más átomos desiguales, pueden crear dipolos permanentes entre los átomos en claridad de sus diferencias de electronegatividad. El átomo más electronegativo atrae el electrón hacia sí y lo aleja del elemento menos electronegativo; se crea una molécula polar con dipolo permanente, en la que el segundo átomo tiene carga positiva y el primero, carga negativa. 
     Separador
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo.color-acento-botones
       h2 2.3 Materiales conductores, aislantes y semiconductores
     p La resistencia en los materiales varía considerablemente de acuerdo a su clase. El oro y la plata son los materiales que menos oposición presentan al paso de una corriente eléctrica; en cambio hay otros materiales como el silicio que presenta una resistencia mucho mayor a la que pueden presentar materiales como el cobre o el aluminio. Finalmente existen otros materiales que presentan una altísima resistencia al paso de la corriente eléctrica.
     h3.mb-5 Teniendo en cuenta esta variación, los materiales se clasifican así:
@@ -128,7 +130,7 @@
         p Son aquellos que están constituidos por elementos que presentan una bajísima oposición al paso de los electrones debido a que los átomos que los conforman poseen gran cantidad de electrones libres. Por ejemplo: plata, cobre, aluminio, tungsteno, cinc, entre otros.
         .col-lg-5.mx-auto
           .titulo-sexto.color-acento-contenido
-            span Electrones atravesando un conductor
+            p.titulo.pb-0.mb-0 <b>Figura 2. </b> <i>Electrones atravesando un conductor.</i>     
           figure
             img(src='@/assets/curso/t2/f7.svg', alt='Electrones atravesando un conductor')
       .tarjeta.color-primario--borde.p-4(titulo="Elementos de materiales conductores")
@@ -136,7 +138,7 @@
         p Los elementos conductores tienen habilidad para permitir el movimiento de cargas y sus átomos se caracterizan por tener muchos electrones libres y aceptarlos o cederlos con facilidad, por lo tanto, son materiales que conducen la electricidad. En la categoría “conductores” se encuentran agrupados todos los metales que en mayor o menor medida conducen o permiten el paso de la corriente eléctrica por sus cuerpos.
         .col-lg-7.mx-auto
           .titulo-sexto.color-acento-contenido
-            span Grupos de elementos conductores, semiconductores y aislantes en la Tabla periódica
+            p.titulo.pb-0.mb-0 <b>Figura 3. </b> <i>Grupos de elementos conductores, semiconductores y aislantes en la Tabla periódica.</i>   
           figure
             img(src='@/assets/curso/t2/f8.svg', alt='Grupos de elementos conductores, semiconductores y aislantes en la Tabla periódica')
       .tarjeta.color-primario--borde.p-4(titulo="Materiales semiconductores")
@@ -148,7 +150,7 @@
             p A una temperatura de 0° Kelvin se comportan como aislantes, debido a que a esta temperatura no hay electrones libres, pero mediante un aporte de energía puede modificar esta situación, alcanzando un comportamiento más cercano al de los conductores, es decir, a mayores temperaturas algunos electrones obtienen suficiente energía para escapar del enlace convirtiéndose en electrones libres (libres pero dentro del sólido cristalino), dejando atrás una vacante en el enlace covalente. Dicha vacante es denominada hueco y todo este proceso se conoce como producción térmica de un par electrón.
           .col-lg-5
             .titulo-sexto.color-acento-contenido
-              span Átomo de silicio compartiendo un electrón de valencia con cada uno de sus cuatro átomos vecinos.
+              p.titulo.pb-0.mb-0 <b>Figura 4. </b> <i>Átomo de silicio compartiendo un electrón de valencia con cada uno de sus cuatro átomos vecinos.</i>  
             figure
               img(src='@/assets/curso/t2/f9.svg', alt='Átomo de silicio compartiendo un electrón de valencia con cada uno de sus cuatro átomos vecinos.')
       .tarjeta.color-primario--borde.p-4(titulo="Materiales aisladores")
@@ -162,50 +164,50 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Cables de aluminio en redes de distribución.
+            span.mb-0 Cables de aluminio en redes de distribución.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Cables de cobre y aluminio en redes de distribución urbana.
+            spam.mb-0 Cables de cobre y aluminio en redes de distribución urbana.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Cables y alambres de cobre en instalaciones residenciales e industriales.
+            spam.mb-0 Cables y alambres de cobre en instalaciones residenciales e industriales.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Semiconductores como el silicio y el germanio en la fabricación de diodos, transistores y circuitos integrados.    
+            spam.mb-0 Semiconductores como el silicio y el germanio en la fabricación de diodos, transistores y circuitos integrados.    
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Baños de oro en contactos, vías, rutas de tarjetas electrónicas y pines de circuitos integrados.
+            spam.mb-0 Baños de oro en contactos, vías, rutas de tarjetas electrónicas y pines de circuitos integrados.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Alambres de cobre para creación de diferentes tipos de inductores.
+            spam.mb-0 Alambres de cobre para creación de diferentes tipos de inductores.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Láminas de aluminio y dieléctrico para crear capacitores.
+            spam.mb-0 Láminas de aluminio y dieléctrico para crear capacitores.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Materiales aislantes para cubrir alambres conductores y borneras.
+            spam.mb-0 Materiales aislantes para cubrir alambres conductores y borneras.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Materiales aislantes como la cerámica o el vidrio para la fabricación de soportes para redes eléctricas.
+            spam.mb-0 Materiales aislantes como la cerámica o el vidrio para la fabricación de soportes para redes eléctricas.
           li 
             i.fas.fa-angle-right.cab
-            p.mb-0 Materiales aislantes como la baquelita para la fabricación de tarjetas para el montaje de circuitos electrónicos. 
+            spam.mb-0 Materiales aislantes como la baquelita para la fabricación de tarjetas para el montaje de circuitos electrónicos. 
     Separador
-    #t_2_4.titulo-segundo
+    #t_2_4.titulo-segundo.color-acento-botones
       h2 2.4 Conductividad y resistividad
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta.fcab
-          span a
+          span #[strong a]
+        | #[strong Conductividad] 
         div 
-          h4 Conductividad
           p La capacidad de un material de permitir pasar la corriente eléctrica es lo que se llama conductividad eléctrica, esta es una medida de la capacidad para consentir circular libremente las cargas eléctricas. La estructura atómica y molecular del material son las que definen la conductividad. Las estructuras que, de muchos electrones con vínculos frágiles, permiten su movimiento, los metales son buenos conductores ya que comparten estas características. Aunque hay otras variables como los físicos del propio material y de la temperatura que igualmente ayudan a la conductividad.
           p Como es la inversa de la resistividad es que se designa la conductividad. Por ende, su unidad es el s/m (siemens x metro) o Ωˉ¹·mˉ¹. La proporcionalidad entre el campo eléctrico y la densidad de corriente de conducción es la que comúnmente se conoce como la magnitud de la conductividad (σ).
       li 
         .lista-ol--cuadro__vineta.fcab
-          span b
+          span #[strong b]
+        | #[strong Resistividad] 
         div
-          h4 Resistividad
           p La resistencia eléctrica concreta de un material es a lo que se le llama resistividad. Esta es simbolizada por la letra griega rho minúscula (ρ) y se mide en ohmios por metro (Ω•m). El proceder de un material ante el paso de corriente eléctrica es lo que da su valor, lo que determina que tan bueno o malo es un material para conducir. Si la resistividad arroja un valor alto significa que el material es mal conductor y uno bajo es un buen conductor. Con la temperatura, regularmente, la resistividad de los metales crece, a diferencia de los semiconductores cuya resistividad se reduce ante el aumento de la temperatura.
           p Se puede decir que una peculiaridad propia de un material es la resistividad y esta posee unidades de ohmios x metro. El que tanto se resiste un material al paso de la corriente es lo que se enseña como resistividad y esta se detalla como ρ (rho) mediante la siguiente expresión:
     .col-lg-10.mx-auto.p-5.fagc
@@ -219,7 +221,7 @@
       p.mb-5 Se puede concluir de la anterior expresión que, de la construcción, resistividad (material con el que fue hecho), longitud, y área transversal. Es del que depende el valor de un resistor, utilizado regularmente en electricidad y electrónica.
       .col-lg-8.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido
-          span Resistividad eléctrica
+          p.titulo.pb-0.mb-0 <b>Figura 5. </b> <i>Resistividad eléctrica.</i>   
         figure
           img(src='@/assets/curso/t2/f10.svg', alt='Resistividad Eléctrica')
           figcaption <b>Nota.</b> Ciudad Universitaria Virtual de San Isidoro (2014).
@@ -227,7 +229,7 @@
       p.mb-5 A continuación, se observa una tabla con la resistividad eléctrica de los materiales más comunes.
       .col-lg-10.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido
-          span Tabla de resistividad eléctrica de algunos materiales resistivos
+          p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Resistividad eléctrica de algunos materiales  resistivos.</i>
         .tabla-a.color-acento-botones.mb-5.fblanco
           table
             caption Nota. Orjuela Gutierez, C.  (2009, febrero 22).
