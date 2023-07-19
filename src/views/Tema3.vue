@@ -134,7 +134,7 @@
           .titulo-segundo.color-acento-botones
             h3 Resistencia eléctrica
           p.mb-4 Todo material se resiste a que una corriente lo recorra. Esta resistencia variará de acuerdo con el tipo de material, temperatura, longitud y grosor del conductor por el que transiten los electrones.
-          a.boton.color-secundario(href="obtenerLink('downloads/grafico2.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-secundario(:href="obtenerLink('downloads/grafico2.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-link
     Separador

@@ -237,7 +237,7 @@ export default {
     },
     {
       referencia:
-        'Çengel, Y. A., y Boles, M. A. (2012). Termodinámica (Octava ed.). Mc Graw Hill.',
+        'Cengel, Y. A., y Boles, M. A. (2012). Termodinámica (Octava ed.). Mc Graw Hill.',
     },
     {
       referencia:
@@ -245,19 +245,11 @@ export default {
       link:
         'https://www.cem.es/sites/default/files/2021-01/SistemaInternacionalUnidades.pdf',
     },
-
     {
       referencia:
         'CIENCIA FÁCIL (s.f). Generador electrostático y botella de Leyden de frasco de película.',
       link: 'https://www.cienciafacil.com/BotellaDeLeyden.html',
     },
-    {
-      referencia:
-        'Circuitos Listos (2002, agosto de 22). [Foto de biografía]. Facebook.',
-      link:
-        'https://mobile.facebook.com/CircuitosListos/photos/a.1595094837455375/2661939650770883/?type=3&source=48&_rdc=1&_rdr',
-    },
-
     {
       referencia:
         'Ciudad Universitaria Virtual de San Isidoro (2014). Estudio de los factores que afectan a la resistencia de un conductor. Práctica virtual.   ',
@@ -287,8 +279,9 @@ export default {
     },
     {
       referencia:
-        'Herasme Medina, E., Gómez Reynoso, C., y González Ramírez, C. (2012). Física básica: para instituciones de educación superior (Primera ed.). Impresos Juniors.',
-      link: 'https://biblioteca.itsc.edu.do/bib/2393',
+        'Herasme Medina, E., Gómez Reynoso, C., y González Ramírez, C. (2012). Física básica: para instituciones de educación superior (Primera ed.). Impresos Juniors. ',
+      link:
+        'https://www.studocu.com/latam/document/universidad-autonoma-de-santo-domingo/fisica-basica/fisica-basica-para-instituciones-de-educacion-superior/11729833',
     },
     {
       referencia:
@@ -305,7 +298,7 @@ export default {
     {
       referencia: 'Magallanes Sandoval, J. (2010). Capítulo 13: Capacitancia.',
       link:
-        'http://www.mailxmail.com/curso-electricidad-fundamentos/capacitancia',
+        'https://es.scribd.com/document/171341752/CAPITULO-13-CAPACITANCIA-REACTANCIA-CAPACITIVA-Y-CIRCUITOS-CAP-PGS-251-A-274',
     },
 
     {
@@ -323,54 +316,42 @@ export default {
       referencia: 'Mantilla, G. (1985). Fuerza, trabajo y potencia. SENA.',
       link: 'https://hdl.handle.net/11404/1851',
     },
-
     {
       referencia:
         'Matemóvil. (2020). Conversiones con Prefijos del Sistema Internacional de Unidades. [video]. Youtube.',
       link: 'https://www.youtube.com/watch?v=fYbo4-g7-IY',
     },
-
     {
       referencia:
         'Mora, R. (2018, noviembre 4).  Resistencias SMD (smt): cómo interpretar los valores. [Web log post]. Neclo- Ciencia y cultura al máximo.',
       link:
         'https://www.negocioscontralaobsolescencia.com/taller/resistencias-smd-smt-como-interpretar-los-valores',
     },
-
+    {
+      referencia:
+        'Ministerio de Minas y Energía de Colombia (2013).  Resolución Número 90708 de 2013 y anexos. Por la cual se expide el Reglamento Técnico de Instalaciones Eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de Generación, Transmisión, Transformación, Distribución y Utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013. ',
+      link:
+        'https://sic.gov.co/sites/default/files/files/reglamentos%20tecnicos/ANEXO%20GENERAL%20RETIE%20Res%2090708%20de%202013%20actualizado%20a%20Res%202017-03-29.pdf',
+    },
     {
       referencia:
         'Orjuela Gutierez, C.  (2009, febrero 22)    Tablas de valores [Web log post]. Fundamentos de electrotécnica.',
       link:
         'http://materialesresistivos.blogspot.com/2009/02/tablas-de-valores.html',
     },
-
-    {
-      referencia:
-        'Resolución Número 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento Técnico de Instalaciones Eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de Generación, Transmisión, Transformación, Distribución y Utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
-    },
-
     {
       referencia:
         'SENA. (1995). Electricidad aplicada: guía de estudio. SENA, TEL-A-TRAIN.',
       link: 'https://hdl.handle.net/11404/756',
     },
-
-    {
+    /*{
       referencia:
         'Todo sobre circuitos. (2021). Circuitos Eléctricos: Qué son, Cómo Funcionan, Tipos y Características. Todo sobre circuitos.',
       link: 'https://www.circuitos-electricos.com/.',
-    },
-
+    },*/
     {
       referencia: 'Torres, J. (2021). Inductancia. Lifeder.',
       link: 'https://www.lifeder.com/inductancia/.',
-    },
-
-    {
-      referencia:
-        'Verificaciones Industriales de Andalucía, S.A. (2021). Unidades derivadas - Electricidad y Magnetismo.',
-      link:
-        'https://www.veiasa.es/metrologia/utilidades/unidades_derivadas/electricidad_magnetismo',
     },
   ],
   glosario: [
@@ -518,7 +499,8 @@ export default {
         {
           nombre: 'Jaime Peñaloza Trespalacios',
           cargo: 'Experto Técnico',
-          centro: 'Servicio Nacional de Aprendizaje - SENA',
+          centro:
+            'Regional Distrito Capital - Centro Electricidad Electrónica y Telecomunicaciones',
         },
         {
           nombre: 'Leidy Carolina Arias Aguirre',

@@ -45,7 +45,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p Entonces, la medida de la cantidad es el número de veces que cupo la unidad patrón en la cantidad acompañada de la unidad de referencia.  
-            p Por ejemplo, 5 es una medición, mientras que 5 m es una medida de la cantidad.
+            p Por ejemplo, 5 es una medición, mientras que 5m es una medida de la cantidad.
 
           .col-md-6
             figure

@@ -7,7 +7,7 @@
     p En el siguiente mapa conceptual, podrá observar en detalle cuales son los conceptos relacionados con el tema de la electricidad:   
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-11.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto

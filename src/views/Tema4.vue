@@ -71,16 +71,16 @@
         ul.lista-ul
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 La expresión analítica y gráfica de la función seno está perfectamente determinada. Permitiendo que sea analizada mediante la teoría de los números complejos en las prácticas de circuitos alternos.
+            span.mb-0 La expresión analítica y gráfica de la función seno está perfectamente determinada. Permitiendo que sea analizada mediante la teoría de los números complejos en las prácticas de circuitos alternos.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Mediante el estudio directo de las series de Fourier, se sustenta que con la sumatoria de una serie de ondas senoidales, de desiguales frecuencias, se puede obtener cualquier onda periódica no senoidal, estas ondas senoidales son llamados armónicos.
+            span.mb-0 Mediante el estudio directo de las series de Fourier, se sustenta que con la sumatoria de una serie de ondas senoidales, de desiguales frecuencias, se puede obtener cualquier onda periódica no senoidal, estas ondas senoidales son llamados armónicos.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Para proporcionar el transporte de la energía eléctrica se logran concebir con facilidad y en magnitudes de valores superiores.
+            span.mb-0 Para proporcionar el transporte de la energía eléctrica se logran concebir con facilidad y en magnitudes de valores superiores.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Mediante el uso de transformadores se hace posible su transformación en otras señales de distinta magnitud.
+            span.mb-0 Mediante el uso de transformadores se hace posible su transformación en otras señales de distinta magnitud.
     ol.lista-ol--cuadro
       li 
         .lista-ol--cuadro__vineta.fcab

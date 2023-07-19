@@ -167,31 +167,31 @@
             span.mb-0 Cables de aluminio en redes de distribución.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Cables de cobre y aluminio en redes de distribución urbana.
+            span.mb-0 Cables de cobre y aluminio en redes de distribución urbana.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Cables y alambres de cobre en instalaciones residenciales e industriales.
+            span.mb-0 Cables y alambres de cobre en instalaciones residenciales e industriales.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Semiconductores como el silicio y el germanio en la fabricación de diodos, transistores y circuitos integrados.    
+            span.mb-0 Semiconductores como el silicio y el germanio en la fabricación de diodos, transistores y circuitos integrados.    
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Baños de oro en contactos, vías, rutas de tarjetas electrónicas y pines de circuitos integrados.
+            span.mb-0 Baños de oro en contactos, vías, rutas de tarjetas electrónicas y pines de circuitos integrados.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Alambres de cobre para creación de diferentes tipos de inductores.
+            span.mb-0 Alambres de cobre para creación de diferentes tipos de inductores.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Láminas de aluminio y dieléctrico para crear capacitores.
+            span.mb-0 Láminas de aluminio y dieléctrico para crear capacitores.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Materiales aislantes para cubrir alambres conductores y borneras.
+            span.mb-0 Materiales aislantes para cubrir alambres conductores y borneras.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Materiales aislantes como la cerámica o el vidrio para la fabricación de soportes para redes eléctricas.
+            span.mb-0 Materiales aislantes como la cerámica o el vidrio para la fabricación de soportes para redes eléctricas.
           li 
             i.fas.fa-angle-right.cab
-            spam.mb-0 Materiales aislantes como la baquelita para la fabricación de tarjetas para el montaje de circuitos electrónicos. 
+            span.mb-0 Materiales aislantes como la baquelita para la fabricación de tarjetas para el montaje de circuitos electrónicos. 
     Separador
     #t_2_4.titulo-segundo.color-acento-botones
       h2 2.4 Conductividad y resistividad
