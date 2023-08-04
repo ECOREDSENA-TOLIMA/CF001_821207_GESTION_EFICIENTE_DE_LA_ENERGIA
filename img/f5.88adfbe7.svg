@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545" height="307" viewBox="0 0 545 307">
+  <g id="Grupo_72838" data-name="Grupo 72838" transform="translate(-527.5 -2783.5)">
+    <rect id="Rectángulo_32395" data-name="Rectángulo 32395" width="545" height="307" transform="translate(527.5 2783.5)" fill="#d0f3f3" opacity="0.283"/>
+    <g id="Grupo_66253" data-name="Grupo 66253" transform="translate(-737.368 1467.799)">
+      <text id="Voltaje" transform="translate(1341.224 1345.527)" fill="#1b2d5b" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Voltaje</tspan></text>
+      <text id="Tiempo" transform="translate(1679.512 1502.819)" fill="#1b2d5b" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tiempo</tspan></text>
+      <text id="_" data-name="+" transform="translate(1348.543 1397.571)" fill="#1b2d5b" font-size="27" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">+</tspan></text>
+      <text id="_-" data-name="-" transform="translate(1348.543 1582.605)" fill="#1b2d5b" font-size="25" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">-</tspan></text>
+      <rect id="Rectángulo_32393" data-name="Rectángulo 32393" width="3.659" height="239.079" transform="translate(1377.196 1370.797)" fill="#442eaf"/>
+      <path id="Trazado_115521" data-name="Trazado 115521" d="M1409.182,1408.5h-21.143l10.572-10.572Z" transform="translate(-19.584 -33.634)" fill="#442eaf"/>
+      <rect id="Rectángulo_32394" data-name="Rectángulo 32394" width="3.659" height="280.171" transform="translate(1660.187 1499.078) rotate(90)" fill="#442eaf"/>
+      <path id="Trazado_115522" data-name="Trazado 115522" d="M1882.6,1635.767v-21.143l10.571,10.571Z" transform="translate(-226.479 -124.288)" fill="#442eaf"/>
+      <path id="Trazado_115523" data-name="Trazado 115523" d="M1407.916,1568.076s16.67-99.616,23.583-88.638,41.066,195.167,52.451,183.782,28.462-192.384,39.033-184.626,37,194.991,45.539,185.133,31.715-197.441,43.506-185.376,34.154,188.122,45.539,183.243,24.8-90.061,24.8-90.061" transform="translate(-27.9 -67.046)" fill="none" stroke="aqua" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
